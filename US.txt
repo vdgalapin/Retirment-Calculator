@@ -1,0 +1,50 @@
+Mississippi	666772
+Oklahoma	687116
+Arkansas	697288
+Kansas	703645
+Tennessee	707460
+New Mexico	720175
+Alabama	723989
+Missouri	725261
+Michigan	732890
+Georgia	737876
+Indiana	745605
+West Virginia	754505
+Nebraska	758320
+Texas	762134
+Iowa	767220
+Ohio	772306
+Louisiana	773578
+Kentucky	774849
+Idaho	797736
+North Carolina	797736
+South Carolina	801551
+Illinois	804094
+Wisconsin	811723
+Utah	815537
+South Dakota	819352
+North Dakota	820623
+Florida	843510
+Arizona	862583
+Minnesota	871483
+Pennyslvania	874026
+Virginia 	885470
+Wyoming	899284
+Nevada	908357
+Colorado	956674
+New Hampshire	960488
+Delaware	963031
+Vermont	1060937
+Montana	1060937
+Maine	1083824
+Washington	1083824
+Rhode Island	1099082
+New Jersey	1174100
+Connecticut	1184272
+Alaska	1213517
+Maryland	1238947
+Massachussets	1249119
+New York	1308879
+Oregon	1334309
+California	1369911
+Hawaii	2151884
