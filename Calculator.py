@@ -53,7 +53,6 @@ plt.ylabel("Dollars ($)")
 
 # The x axis will be the years
 plt.xlabel("Years")
-
 # Add a legend
 plt.legend(loc='best')
 # Put ticks marks in each bar
