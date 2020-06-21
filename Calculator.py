@@ -8,13 +8,13 @@ from PIL import Image, ImageDraw, ImageFont
 from prettytable import PrettyTable
 
 # How much is in your current principal
-current_principal = 0# float(input("Current Principal: "))
+current_principal = float(input("Current Principal: "))
 # How much is the annual addition
-annual_addition = 20000# float(input("Annual Addition: "))
+annual_addition = float(input("Annual Addition: "))
 # How many years to grow
-years_growth = 20 # int(input("Years Growth (Cannot be zero and below): "))
+years_growth = int(input("Years Growth (Cannot be zero and below): "))
 # How much is the interest per year
-annual_interest = 7.54 #float(input("Annual Interest: "))
+annual_interest = float(input("Annual Interest: "))
 
 # List for money growth
 money_growth = []
@@ -29,7 +29,7 @@ for x in range(1, years_growth + 1):
     years.append(x)
 ########################################################################################################################
 # open method used to open different extension image file
-im = Image.open(r"C:\Users\galap\PycharmProjects\Retirment-Calculator\USA-MAP.png").convert('RGBA')
+im = Image.open(r"C:\Users\Vyron\Documents\GitHub\Retirment-Calculator\USA-MAP.png").convert('RGBA')
 # Allow us to draw in the picture
 draw = ImageDraw.Draw(im)
 # Outline for dots in the picture
