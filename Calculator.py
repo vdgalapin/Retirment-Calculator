@@ -3,18 +3,18 @@ import matplotlib.pyplot as plt
 # This allow us to create a list automatically
 import numpy as np
 # Allow us to post an image and draw on it
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFont
 # Create a pretty table
 from prettytable import PrettyTable
 
 # How much is in your current principal
 current_principal = 0# float(input("Current Principal: "))
 # How much is the annual addition
-annual_addition = 20000 # float(input("Annual Addition: "))
+annual_addition = 20000# float(input("Annual Addition: "))
 # How many years to grow
 years_growth = 20 # int(input("Years Growth (Cannot be zero and below): "))
 # How much is the interest per year
-annual_interest = 7.54 # float(input("Annual Interest: "))
+annual_interest = 7.54 #float(input("Annual Interest: "))
 
 # List for money growth
 money_growth = []
@@ -182,6 +182,17 @@ print(retirement_table)
 
 # Closes the file
 File.close()
+
+########################################################################################################################
+# Prints a text in the picture
+font = ImageFont.truetype(r'C:\Users\System-Pc\Desktop\arial.ttf', 20)
+
+red_text = 'The Red Circle is the states you cant retire.'
+green_text = 'The Green Circle is the state you can retire.'
+# drawing text size
+draw.text((475, 0), red_text, font=font, align="left", fill='black')
+draw.text((475, 25), green_text, font=font, align="left", fill = 'black')
+########################################################################################################################
 # Necessary
 del draw
 # show the pictures
