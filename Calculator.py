@@ -29,7 +29,7 @@ for x in range(1, years_growth + 1):
     years.append(x)
 ########################################################################################################################
 # open method used to open different extension image file
-im = Image.open(r"C:\Users\galap\PycharmProjects\Retirment-Calculator\USA-MAP.png").convert('RGBA')
+im = Image.open(r"C:\Users\Vyron\Documents\GitHub\Retirment-Calculator\USA-MAP.png").convert('RGBA')
 # Allow us to draw in the picture
 draw = ImageDraw.Draw(im)
 # Outline for dots in the picture
