@@ -8,13 +8,13 @@ from PIL import Image, ImageDraw, ImageFont
 from prettytable import PrettyTable
 
 # How much is in your current principal
-current_principal = 0# float(input("Current Principal: "))
+current_principal = float(input("Current Principal: "))
 # How much is the annual addition
-annual_addition = 20000# float(input("Annual Addition: "))
+annual_addition = float(input("Annual Addition: "))
 # How many years to grow
-years_growth = 20 # int(input("Years Growth (Cannot be zero and below): "))
+years_growth = int(input("Years Growth (Cannot be zero and below): "))
 # How much is the interest per year
-annual_interest = 7.54 #float(input("Annual Interest: "))
+annual_interest = float(input("Annual Interest: "))
 
 # List for money growth
 money_growth = []
